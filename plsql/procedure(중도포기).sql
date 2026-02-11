@@ -41,7 +41,7 @@ BEGIN
     END IF;
 
     -- 4. 80% 미만 시 상태 업데이트
-    IF v_attendance_rate <= 80 THEN
+    IF v_attendance_rate <= 84 THEN
         UPDATE STUDENT
         SET studentStatus = '중도포기'
         WHERE studentSeq = p_student_seq;
@@ -66,6 +66,7 @@ begin
 end;
 /
 
+select * from Student where STUDENTSTATUS = '중도포기';
 
 select * from Student s
     inner join ATTENDANCE a on a.STUDENTSEQ = s.STUDENTSEQ
