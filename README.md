@@ -65,11 +65,11 @@
 ---
 
 ## 🚅 6. 프로젝트 진행 순서
-1. 요구 분석서
-2. 순서도
-3. ERD
-4. DDL
-5. DML
-6. ANSI-SQL
-7. PL/SQL
-8. 발표 자료 ppt
+1.  요구 분석서
+2.  순서도
+3.  ERD
+4.  DDL
+5.  DML
+6.  ANSI-SQL
+7.  PL/SQL
+8.  발표 자료 ppt
